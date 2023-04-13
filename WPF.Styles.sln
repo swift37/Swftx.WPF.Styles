@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.Styles", "WPF.Styles\WP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B6348164-9588-4CD8-B84A-AF20C035A8ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Styles.WPFTests", "WPF.Styles.WPFTests\WPF.Styles.WPFTests.csproj", "{2921E916-605B-4D8B-B5CB-B3EEAE452B80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Styles.WPFTests", "Tests\WPF.Styles.WPFTests\WPF.Styles.WPFTests.csproj", "{2921E916-605B-4D8B-B5CB-B3EEAE452B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Styles.Tests", "Tests\WPF.Styles.Tests\WPF.Styles.Tests.csproj", "{DFCF8E33-78A0-4A23-A8B6-F3F69BCAE700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{2921E916-605B-4D8B-B5CB-B3EEAE452B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2921E916-605B-4D8B-B5CB-B3EEAE452B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2921E916-605B-4D8B-B5CB-B3EEAE452B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCF8E33-78A0-4A23-A8B6-F3F69BCAE700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCF8E33-78A0-4A23-A8B6-F3F69BCAE700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCF8E33-78A0-4A23-A8B6-F3F69BCAE700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCF8E33-78A0-4A23-A8B6-F3F69BCAE700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2921E916-605B-4D8B-B5CB-B3EEAE452B80} = {B6348164-9588-4CD8-B84A-AF20C035A8ED}
+		{DFCF8E33-78A0-4A23-A8B6-F3F69BCAE700} = {B6348164-9588-4CD8-B84A-AF20C035A8ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36C546F8-3856-42D0-A074-CEB127446FBB}

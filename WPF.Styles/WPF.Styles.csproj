@@ -17,7 +17,7 @@
 
   <PropertyGroup>
     <PackageId>Swftx.WPF.Styles</PackageId>
-    <Authors>rafchik37@gmail.com</Authors>
+    <Authors>swift37</Authors>
     <Description>Template and element styles package designed for .NET 7.0 and higher </Description>
     <Copyright>rafchik37@gmail.com</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

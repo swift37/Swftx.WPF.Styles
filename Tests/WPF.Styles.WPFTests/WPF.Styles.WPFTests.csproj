@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WPF.Styles\WPF.Styles.csproj" />
+    <ProjectReference Include="..\..\WPF.Styles\WPF.Styles.csproj" />
   </ItemGroup>
 
 </Project>
