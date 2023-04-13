@@ -8,4 +8,25 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <PackageReleaseNotes>
+      Project launch
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Swftx.WPF.Styles</PackageId>
+    <Authors>rafchik37@gmail.com</Authors>
+    <Description>Template and element styles package designed for .NET 7.0 and higher </Description>
+    <Copyright>rafchik37@gmail.com</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/swift37/Swftx.WPF.Styles</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/swift37/Swftx.WPF.Styles</PackageProjectUrl>
+    <PackageTags>WPF;XAML;UI;.Net;Design;Styles;Templates;Controls</PackageTags>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\Users\rafch\source\repos\WPF.Styles\Swftx.WPF.Styles.snk</AssemblyOriginatorKeyFile>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  
 </Project>
