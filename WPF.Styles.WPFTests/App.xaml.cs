@@ -1,4 +1,4 @@
-﻿namespace WPF.Styles.Tests
+﻿namespace WPF.Styles.WPFTests
 {
     public partial class App
     {
