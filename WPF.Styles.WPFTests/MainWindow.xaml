@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <TextBox Text="test" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,15" Width="125">
+            <!--<TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="BorderThickness" Value="3"/>
+                    <Setter Property="BorderBrush" Value="Red"/>
+                </Style>
+            </TextBox.Style>-->
+        </TextBox>
     </Grid>
 </Window>
