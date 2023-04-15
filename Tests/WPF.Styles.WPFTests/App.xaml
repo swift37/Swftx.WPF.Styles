@@ -7,6 +7,9 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/WPF.Styles;component/Styles/TextBoxes/TaggedTextBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WPF.Styles;component/Styles/CheckBoxes/SwitcherCheckBoxLarge.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WPF.Styles;component/Styles/CheckBoxes/SwitcherCheckBoxMedium.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WPF.Styles;component/Styles/CheckBoxes/SwitcherCheckBoxSmall.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
