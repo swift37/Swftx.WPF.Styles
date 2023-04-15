@@ -1,9 +1,32 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>
+      Анимация перемещения заголовка у TaggedTextBox
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Swftx.WPF.Styles</PackageId>
+    <Authors>swift37</Authors>
+    <Description>Template and element styles package designed for .NET 7.0 and higher </Description>
+    <Copyright>rafchik37@gmail.com</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/swift37/Swftx.WPF.Styles</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/swift37/Swftx.WPF.Styles</PackageProjectUrl>
+    <PackageTags>WPF;XAML;UI;.Net;Design;Styles;Templates;Controls</PackageTags>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>Swftx.WPF.Styles.snk</AssemblyOriginatorKeyFile>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  
 </Project>

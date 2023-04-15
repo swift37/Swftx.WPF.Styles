@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Styles", "WPF.Styles\WPF.Styles.csproj", "{615ED09B-71F7-46E4-AB0A-6DBBB4AF2D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.Styles", "WPF.Styles\WPF.Styles.csproj", "{615ED09B-71F7-46E4-AB0A-6DBBB4AF2D92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B6348164-9588-4CD8-B84A-AF20C035A8ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.Styles.WPFTests", "Tests\WPF.Styles.WPFTests\WPF.Styles.WPFTests.csproj", "{2921E916-605B-4D8B-B5CB-B3EEAE452B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Styles.Tests", "Tests\WPF.Styles.Tests\WPF.Styles.Tests.csproj", "{8D4DA9E0-9AD8-4B84-875B-F1D565F421CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Styles.WPFTests.Packages", "Tests\WPF.Styles.WPFTests.Packages\WPF.Styles.WPFTests.Packages.csproj", "{4358284B-6F5A-42A2-A7D1-FE33286483CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,26 @@ Global
 		{615ED09B-71F7-46E4-AB0A-6DBBB4AF2D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615ED09B-71F7-46E4-AB0A-6DBBB4AF2D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{615ED09B-71F7-46E4-AB0A-6DBBB4AF2D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2921E916-605B-4D8B-B5CB-B3EEAE452B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2921E916-605B-4D8B-B5CB-B3EEAE452B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2921E916-605B-4D8B-B5CB-B3EEAE452B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2921E916-605B-4D8B-B5CB-B3EEAE452B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4DA9E0-9AD8-4B84-875B-F1D565F421CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4DA9E0-9AD8-4B84-875B-F1D565F421CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4DA9E0-9AD8-4B84-875B-F1D565F421CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4DA9E0-9AD8-4B84-875B-F1D565F421CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4358284B-6F5A-42A2-A7D1-FE33286483CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4358284B-6F5A-42A2-A7D1-FE33286483CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4358284B-6F5A-42A2-A7D1-FE33286483CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4358284B-6F5A-42A2-A7D1-FE33286483CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2921E916-605B-4D8B-B5CB-B3EEAE452B80} = {B6348164-9588-4CD8-B84A-AF20C035A8ED}
+		{8D4DA9E0-9AD8-4B84-875B-F1D565F421CD} = {B6348164-9588-4CD8-B84A-AF20C035A8ED}
+		{4358284B-6F5A-42A2-A7D1-FE33286483CA} = {B6348164-9588-4CD8-B84A-AF20C035A8ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36C546F8-3856-42D0-A074-CEB127446FBB}
