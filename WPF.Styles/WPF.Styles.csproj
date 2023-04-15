@@ -25,7 +25,7 @@
     <PackageProjectUrl>https://github.com/swift37/Swftx.WPF.Styles</PackageProjectUrl>
     <PackageTags>WPF;XAML;UI;.Net;Design;Styles;Templates;Controls</PackageTags>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>C:\Users\rafch\source\repos\WPF.Styles\Swftx.WPF.Styles.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Swftx.WPF.Styles.snk</AssemblyOriginatorKeyFile>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
   
