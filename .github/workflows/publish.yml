@@ -1,0 +1,41 @@
+name: Publish NuGet
+
+on:
+  push:
+    branches:
+      - main
+    
+jobs:
+  build:
+    name: Update package
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+          fetch-depth: 0
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+      
+    - name: Restore
+      run: |
+          dotnet restore WPF.Styles/WPF.Styles.csproj
+          dotnet restore Tests/WPF.Styles.Tests/WPF.Styles.Tests.csproj
+      
+    - name: Building
+      run: |
+        dotnet build WPF.Styles/WPF.Styles.csproj -c Release --nologo
+        dotnet build Tests/WPF.Styles.Tests/WPF.Styles.Tests.csproj -c Release --nologo
+      
+    - name: Testing
+      run: dotnet test Tests/WPF.Styles.Tests/WPF.Styles.Tests.csproj --nologo
+
+    - name: Packing
+      run: dotnet pack WPF.Styles/WPF.Styles.csproj --no-build -c Release -v q
+
+    - name: Publishing
+      run: dotnet nuget push "**/*.nupkg" --skip-duplicate -k ${{ secrets.NuGetApiKey }} -s https://api.nuget.org/v3/index.json
