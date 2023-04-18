@@ -9,6 +9,6 @@
     <Grid>
         <CheckBox VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30" Padding="5,0"
                   Content="Подтвердите свой выбор"
-                  Style="{StaticResource SwitcherCheckBoxMediumStyle}"/>
+                  Style="{StaticResource SwitcherCheckBoxSmallStyle}"/>
     </Grid>
 </Window>
